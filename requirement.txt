@@ -1,0 +1,14 @@
+Webpack (import/exports)// сборщик проекта где будет модульность и всё собирается в один js файл
+    Babel // tanspalation
+    SCSS
+    Eslint
+    2 Modes
+        - Dev
+          Dev Server, SourceMaps(исходные карты), Eslint, Not Minified JS & CSS
+        - Prod
+          Minified Code
+Git
+    Production
+        1.0.0
+    Development
+        1.0.2
