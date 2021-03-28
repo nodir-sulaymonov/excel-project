@@ -1,3 +1,5 @@
-import './sass/index.scss';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import './scss/index.scss';
 
-console.log('working');
+console.log('Hello world!');
