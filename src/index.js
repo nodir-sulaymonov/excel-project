@@ -1,3 +1,7 @@
-import './sass/index.scss';
+import 'core-js/stable' // Вместо @babel/polyfill
+import 'regenerator-runtime/runtime' // Вместо @babel/polyfill
 
-console.log('working');
+import './scss/index.scss'
+import './module'
+
+console.log('Hello dsddd');
