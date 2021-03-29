@@ -8,8 +8,6 @@ module.exports = (env, argv) => {
   const isProd = argv.mode === 'production';
   const isDev = !isProd;
 
-  console.log('\n>> isProd:', isProd, '\n'); // >>>
-  console.log('\n>> isDev:', isDev, '\n'); // >>>
   const filename = (ext) => isProd ?
     `[name].[contenthash].bundle.${ext}` :
     `[name].bundle.${ext}`;
